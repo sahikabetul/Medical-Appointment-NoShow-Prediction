@@ -1,12 +1,13 @@
 # Medical-Appointment-NoShow-Prediction | Which Patient will not Come to the Appointment?
 ## Solution to a daily life problem guided by 'Medical Appointment No Shows' data from 2016
+
+<img src="https://img.freepik.com/free-vector/set-doctor-patient-cartoon-characters_36082-522.jpg?size=626&ext=jpg" width="800px" height="auto">
+
 Not coming to examination appointments is a negative situation for the health system as well as the patient.
 
 Patients who do not come to their appointment on time cause an interruption in the scheduling process. If they do not come at all, they waste the doctor's time, and if they come late, they cause the doctor to do extra work. In both cases, the efficiency of the health system reduces.
 
 There are monetary costs associated with no-shows. A study highlighted in Health Management Technology found that missed appointments in the U.S. costs the industry an astounding $150 billion dollars. On average, each physician loses $200 per unused time slot.
-
-<img src="https://img.freepik.com/free-vector/set-doctor-patient-cartoon-characters_36082-522.jpg?size=626&ext=jpg" width="800px" height="auto">
 
 ## Motivation for the Project
 Investigate the reason why some patients do not show up to their scheduled appointments and find the probability of missing the appointment.
