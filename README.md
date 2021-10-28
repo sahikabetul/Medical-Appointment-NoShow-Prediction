@@ -14,8 +14,6 @@ Investigate the reason why some patients do not show up to their scheduled appoi
 ## Summary of the Results of the Analysis
 Best model: Random Forest Classifier , f1-score: 0.88, Accuracy: 0.79
 
-<img src="https://github.com/sahikabetul/Medical-Appointment-NoShow-Prediction/blob/main/random.png" width="800px" height="auto">
-
 According to trained models feature importance, we could see that Gender, Scholarship, Hypertension and Diabetes are some of the top features that would help us determine if the patient who has taken an appointment will show/no-how.
 
 ## Libraries Used
