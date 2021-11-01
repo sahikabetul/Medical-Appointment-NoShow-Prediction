@@ -41,7 +41,8 @@ from plotly.subplots import make_subplots
 from sklearn.metrics import accuracy_score, confusion_matrix, roc_auc_score, ConfusionMatrixDisplay, precision_score, recall_score, f1_score, classification_report, roc_curve, plot_roc_curve, auc, precision_recall_curve, plot_precision_recall_curve, average_precision_score
 from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import GridSearchCV, GroupShuffleSplit
-from sklearn.ensemble import GradientBoostingClassifier);
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.naive_bayes import GaussianNB
 ```
 
 ## Files in the Repository
