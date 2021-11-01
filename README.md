@@ -26,23 +26,28 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.graph_objs as go
 import datetime
-from time import strftime
 import statistics
+import lightgbm as lgb
 
+from time import strftime
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression,LogisticRegression
 from sklearn.tree import DecisionTreeRegressor,DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier, VotingClassifier, AdaBoostClassifier, ExtraTreesClassifier
 from sklearn.svm import SVC
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.metrics import classification_report,confusion_matrix,f1_score
+from sklearn.model_selection import train_test_split, cross_val_score, StratifiedKFold
+from sklearn.metrics import classification_report,confusion_matrix,f1_score, make_scorer
 from plotly.subplots import make_subplots
 from sklearn.metrics import accuracy_score, confusion_matrix, roc_auc_score, ConfusionMatrixDisplay, precision_score, recall_score, f1_score, classification_report, roc_curve, plot_roc_curve, auc, precision_recall_curve, plot_precision_recall_curve, average_precision_score
 from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import GridSearchCV, GroupShuffleSplit
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.naive_bayes import GaussianNB
+from catboost import CatBoostClassifier
+from sklearn.neural_network import MLPClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 ```
 
 ## Files in the Repository
